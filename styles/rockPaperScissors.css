@@ -1,0 +1,74 @@
+body {
+  background-color: rgb(31, 31, 31);
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin: 50px;
+}
+
+.move-icon {
+  height: 50px;
+}
+
+.move-button {
+  background-color: transparent;
+  border: 3px solid white;
+  width: 100px;
+  height: 100px;
+  border-radius: 60px;
+  margin: 10px;
+  margin-top: 30px;
+  transition: 0.2s;
+}
+
+.move-button:hover {
+  cursor: pointer;
+  background-color: rgb(63, 63, 63);
+  transform: scale(1.1);
+}
+
+.move-button:active {
+  opacity: 0.5;
+  transition: 0s;
+}
+
+.result {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.score {
+  margin-top: 50px;
+}
+
+.reset-score-button {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+  display: flex;
+  justify-self: center;
+} 
+
+.reset-score-button:hover {
+  transform: scale(1.1);
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.button-div {
+  display: flex;
+  justify-content: center;
+}
+
+.stats-div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
