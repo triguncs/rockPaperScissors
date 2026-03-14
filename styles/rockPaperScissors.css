@@ -41,19 +41,28 @@ body {
   margin-top: 50px;
 }
 
-.reset-score-button {
+.button-container {
+  display: flex;
+  justify-self: center;
+}
+
+.reset-score-button,
+.autoplay-button {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 15px;
   padding: 10px;
+  margin-right: 10px;
   border-radius: 10px;
   cursor: pointer;
   transition: 0.2s;
-  display: flex;
-  justify-self: center;
 } 
 
 .reset-score-button:hover {
+  transform: scale(1.1);
+}
+
+.autoplay--button:hover {
   transform: scale(1.1);
 }
 

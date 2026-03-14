@@ -18,13 +18,19 @@
       <p class="js-score score"></p>
     </div>
 
-    <button onclick="
-      score.losses = 0;
-      score.wins = 0;
-      score.ties = 0;
-      localStorage.removeItem('score');
-      updateScoreElement();
-    " class="reset-score-button">Reset score</button>
+    <div class="button-container">
+      <button onclick="
+        score.losses = 0;
+        score.wins = 0;
+        score.ties = 0;
+        localStorage.removeItem('score');
+        updateScoreElement(); 
+      " class="reset-score-button">Reset score</button>
+
+      <button onclick="
+        autoplay();
+      " class="autoplay-button">AutoPlay</button>
+    </div>
 
     <script src="scripts/rockPaperScissors.js"></script>
   </body>
